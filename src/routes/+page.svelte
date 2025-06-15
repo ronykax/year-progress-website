@@ -3,6 +3,10 @@
     import ArrowSquareOut from "phosphor-icons-svelte/IconArrowSquareOutBold.svelte";
 </script>
 
+<svelte:head>
+    <title>Year Progress App</title>
+</svelte:head>
+
 <div
     class="mx-auto max-w-7xl px-8 font-sans flex flex-col justify-center h-screen"
 >
