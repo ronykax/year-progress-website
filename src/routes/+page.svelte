@@ -1,0 +1,57 @@
+<script lang="ts">
+    import Plus from "phosphor-icons-svelte/IconPlusBold.svelte";
+    import ArrowSquareOut from "phosphor-icons-svelte/IconArrowSquareOutBold.svelte";
+</script>
+
+<div class="mx-auto max-w-7xl px-6 font-sans flex flex-col justify-center h-screen">
+    <div class="flex w-full gap-12 h-full justify-center items-center">
+        <div class="w-full flex flex-col gap-12">
+            <span class="text-6xl font-semibold font-display">
+                Track the year
+                <br />
+                At a glance
+            </span>
+
+            <span class="text-2xl opacity-75 font-sans">
+                A Discord app that divides the current year into 100 pieces and
+                shows how much of it has passed.
+            </span>
+
+            <div class="flex gap-4 text-xl">
+                <a
+                    href="https://discord.com/oauth2/authorize?client_id=1058434901080277134"
+                >
+                    <button
+                        class="bg-[#5865f2] px-8 py-4 rounded-2xl font-semibold cursor-pointer hover:-translate-y-1.5 duration-200 flex gap-3 items-center"
+                    >
+                        <Plus />
+                        Add App
+                    </button>
+                </a>
+
+                <a href="https://discord.gg/jvWWH8nZxp">
+                    <button
+                        class="bg-[#fff]/10 px-8 py-4 rounded-2xl font-semibold cursor-pointer hover:-translate-y-1.5 duration-200 flex gap-3 items-center"
+                    >
+                        <ArrowSquareOut />
+                        Support Server
+                    </button>
+                </a>
+            </div>
+        </div>
+
+        <div
+            class="w-full h-fit rounded-3xl border-2 border-white/25 overflow-hidden shadow-2xl"
+        >
+            <img class="" src="/hero.png" alt="" />
+        </div>
+    </div>
+
+    <div class="opacity-50 flex gap-3 justify-center py-10">
+        <span>Year Progress © 2025 All Rights Reserved</span>
+        <span>•</span>
+        <a href="/privacy" class="underline underline-offset-2">Privacy Policy</a>
+        <span>•</span>
+        <a href="/terms" class="underline underline-offset-2">Terms of Service</a>
+    </div>
+</div>
