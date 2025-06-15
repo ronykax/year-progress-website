@@ -3,21 +3,21 @@
     import ArrowSquareOut from "phosphor-icons-svelte/IconArrowSquareOutBold.svelte";
 </script>
 
-<div class="mx-auto max-w-7xl px-6 font-sans flex flex-col justify-center h-screen">
-    <div class="flex w-full gap-12 h-full justify-center items-center">
-        <div class="w-full flex flex-col gap-12">
-            <span class="text-6xl font-semibold font-display">
+<div class="mx-auto max-w-7xl px-8 font-sans flex flex-col justify-center h-screen">
+    <div class="flex w-full gap-12 flex-col md:flex-row h-full justify-center items-center">
+        <div class="w-full flex flex-col gap-8 lg:gap-12">
+            <span class="text-4xl md:text-6xl font-semibold font-display">
                 Track the year
                 <br />
                 At a glance
             </span>
 
-            <span class="text-2xl opacity-75 font-sans">
+            <span class="text-lg md:text-2xl opacity-75 font-sans">
                 A Discord app that divides the current year into 100 pieces and
                 shows how much of it has passed.
             </span>
 
-            <div class="flex gap-4 text-xl">
+            <div class="flex flex-col md:flex-row gap-4 text-lg">
                 <a
                     href="https://discord.com/oauth2/authorize?client_id=1058434901080277134"
                 >
