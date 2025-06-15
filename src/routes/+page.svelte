@@ -5,6 +5,16 @@
 
 <svelte:head>
     <title>Year Progress App</title>
+    <meta property="og:title" content="Year Progress App" />
+    <meta
+        property="og:description"
+        content="Tracks how far the current year has progressed in UTC."
+    />
+    <meta
+        property="og:image"
+        content="https://yearprogress.ronykax.xyz/logo256.png"
+    />
+    <meta property="og:url" content="https://yourdomain.com" />
 </svelte:head>
 
 <div
