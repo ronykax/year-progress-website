@@ -18,24 +18,24 @@
 </svelte:head>
 
 <div
-    class="mx-auto max-w-9/12 px-8 font-sans flex flex-col justify-center h-screen"
+    class="mx-auto max-w-7xl px-8 font-sans flex flex-col justify-center h-screen"
 >
     <div
-        class="flex w-full gap-32 flex-col md:flex-row h-full justify-center items-center"
+        class="flex w-full gap-24 flex-col lg:flex-row h-full justify-center items-center pt-36 lg:pt-0"
     >
         <div class="w-full flex flex-col gap-8 lg:gap-12">
-            <span class="text-4xl md:text-6xl font-semibold font-display">
+            <span class="text-4xl lg:text-6xl font-semibold font-display md:text-5xl">
                 Track the year
                 <br />
                 At a glance
             </span>
 
-            <span class="text-lg md:text-2xl opacity-75 font-sans">
+            <span class="text-lg lg:text-2xl opacity-75 font-sans">
                 A Discord app that divides the current year into 100 pieces and
                 shows how much of it has passed.
             </span>
 
-            <div class="flex flex-col md:flex-row gap-4 text-lg">
+            <div class="flex flex-col lg:flex-row gap-4 text-lg">
                 <a
                     href="https://discord.com/oauth2/authorize?client_id=1058434901080277134"
                 >
@@ -59,25 +59,25 @@
         </div>
 
         <div
-            class="w-full h-fit rounded-3xl border-2 border-white/10 overflow-hidden rotate-3 bounce-y hover:rotate-0 duration-500"
+            class="w-fit h-fit rounded-3xl border-2 border-white/10 overflow-hidden rotate-3 bounce-y hover:rotate-0 duration-500"
         >
-            <img class="" src="/hero.png" alt="" />
+            <img class="w-full h-full object-contain" src="/hero.png" alt="" />
         </div>
     </div>
 
-    <div class="opacity-50 flex gap-3 justify-between md:justify-center py-10">
+    <div class="opacity-50 flex gap-3 justify-between lg:justify-center py-10">
         <span>© 2025 All Rights Reserved</span>
 
-        <div class="flex flex-col gap-3 text-end md:flex-row">
-            <span class="hidden md:block">•</span>
+        <div class="flex flex-col gap-3 text-end lg:flex-row">
+            <span class="hidden lg:block">•</span>
             <a href="/privacy" class="underline underline-offset-2">
                 Privacy Policy
             </a>
-            <span class="hidden md:block">•</span>
+            <span class="hidden lg:block">•</span>
             <a href="/terms" class="underline underline-offset-2">
                 Terms of Service
             </a>
-            <span class="hidden md:block">•</span>
+            <span class="hidden lg:block">•</span>
             <a
                 href="https://github.com/ronykax/year-progress"
                 class="underline underline-offset-2"
