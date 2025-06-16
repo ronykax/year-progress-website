@@ -18,10 +18,10 @@
 </svelte:head>
 
 <div
-    class="mx-auto max-w-7xl px-8 font-sans flex flex-col justify-center h-screen"
+    class="mx-auto max-w-9/12 px-8 font-sans flex flex-col justify-center h-screen"
 >
     <div
-        class="flex w-full gap-12 flex-col md:flex-row h-full justify-center items-center"
+        class="flex w-full gap-32 flex-col md:flex-row h-full justify-center items-center"
     >
         <div class="w-full flex flex-col gap-8 lg:gap-12">
             <span class="text-4xl md:text-6xl font-semibold font-display">
@@ -59,7 +59,7 @@
         </div>
 
         <div
-            class="w-full h-fit rounded-3xl border-2 border-white/25 overflow-hidden shadow-2xl"
+            class="w-full h-fit rounded-3xl border-2 border-white/10 overflow-hidden rotate-3 bounce-y hover:rotate-0 duration-500"
         >
             <img class="" src="/hero.png" alt="" />
         </div>
