@@ -61,7 +61,7 @@
         <div
             class="w-fit h-fit rounded-3xl border-2 border-white/10 overflow-hidden rotate-3 bounce-y hover:rotate-0 duration-500"
         >
-            <img class="w-full h-full object-contain" src="/hero.png" alt="" />
+            <img class="w-full h-full object-contain" src="/preview.png" alt="" />
         </div>
     </div>
 
